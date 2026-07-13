@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Your Name</h1>
+<h1 align="center">Hi 👋, I'm Tuanwannafly</h1>
 <h3 align="center">A passionate Full-Stack Developer from Vietnam</h3>
 
 <p align="center">
@@ -11,11 +11,11 @@
 ---
 
 ### 🚀 About Me
-- 🔭 Currently working on: your current project / company
-- 🌱 Currently learning: a technology you're exploring
-- 👯 Looking to collaborate on: topics you're interested in
-- 💬 Ask me about: your area of expertise
-- 📫 How to reach me: email@example.com
+- 🔭 Currently working on: myself
+- 🌱 Currently learning: Java, Csharp, Golang, Python, Ruby
+- 👯 Looking to collaborate on: AI, Software
+- 💬 Ask me about: Backend dev
+- 📫 How to reach me: totuanforwork@gmail.com
 - ⚡ Fun fact: something interesting about you
 
 ---
