@@ -1,0 +1,23 @@
+# Path: .github/workflows/blog-post-workflow.yml (in your profile repo)
+# What it does: every hour, fetches your latest posts from an RSS feed (personal blog, Dev.to, Medium, etc.)
+# and automatically inserts them between the <!-- BLOG-POST-LIST:START --> and
+# <!-- BLOG-POST-LIST:END --> markers in README.md
+
+name: Update Latest Blog Posts
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # runs every hour
+  workflow_dispatch: {}
+
+jobs:
+  update-readme:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://your-blog-url.com/rss.xml,https://dev.to/feed/yourusername"
+          max_post_count: 5
